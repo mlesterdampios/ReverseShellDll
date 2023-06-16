@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CodeVM">
+      <UniqueIdentifier>{c6851815-0bb2-4b65-9a1c-af8e3993fd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{8f1776cb-9b49-4cf9-825c-797e5933ade5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect">
+      <UniqueIdentifier>{d276bd6f-1021-4e1a-a954-0ed4a419cb3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_ICL_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_LCC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_VC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_GNU_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_ICL_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_LCC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_VC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_BorlandC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_BorlandC_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_GNU_inline.h">
+      <Filter>CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xorstr.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtect\VMProtectSDK.h">
+      <Filter>VMProtect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseShellDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CodeVM\VirtualizerSDK32.lib">
+      <Filter>CodeVM</Filter>
+    </Library>
+    <Library Include="CodeVM\VirtualizerSDK64.lib">
+      <Filter>CodeVM</Filter>
+    </Library>
+    <Library Include="VMProtect\VMProtectSDK64.lib">
+      <Filter>VMProtect</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
