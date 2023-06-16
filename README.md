@@ -55,5 +55,7 @@ msiexec /y "C:\path\to\dll\ReverseShellDLL.dll"
 
 Credits
 -------
-https://github.com/limbenjamin/ReverseShellDll
-https://github.com/JustasMasiulis/xorstr
+1. Modified version of https://github.com/limbenjamin/ReverseShellDll
+2. Added compile time string encryption https://github.com/JustasMasiulis/xorstr
+3. Thanks to https://github.com/JackBro/BetaShield/tree/master/3rd/Protector/CodeVirtualizer for CodeVirtualizer x64
+4. Thanks to https://github.com/Sthephanfelix/Overwatch-Aimbot/blob/master/VMProtectSDK64.lib for VMProtect x64
